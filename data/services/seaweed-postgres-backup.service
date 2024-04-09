@@ -1,6 +1,6 @@
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/mkiblbackup seaweed /home/antiraid/.dbcerts/public.pem
+ExecStart=/usr/bin/mkarbackup seaweed /home/antiraid/.dbcerts/public.pem
 User=antiraid
 Group=antiraid
 WorkingDirectory=/home/antiraid
