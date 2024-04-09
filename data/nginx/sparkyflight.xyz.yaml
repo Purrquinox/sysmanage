@@ -1,0 +1,20 @@
+servers:
+    - id: api
+      names:
+        - api
+      comment: API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:5590
+          opts: []
+    - id: cdn
+      names:
+        - cdn
+      comment: CDN
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:8333
+          opts: []
+real_name: ""

@@ -1,0 +1,8 @@
+cmd: /home/antiraid/splashtail/staging/splashtail webserver
+dir: /home/antiraid/splashtail/staging
+target: antiraid-v6
+description: Antiraid API and bot
+after: ar-gateway-proxy
+broken: false
+user: antiraid
+group: antiraid

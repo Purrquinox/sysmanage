@@ -1,0 +1,13 @@
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/mkiblbackup seaweed /home/antiraid/.dbcerts/public.pem
+User=antiraid
+Group=antiraid
+WorkingDirectory=/home/antiraid
+PrivateTmp=true
+Environment="PGPORT=5432"
+
+[Unit]
+Description="Backup script for seaweed"
+After=postgresql.service
+Wants=network-online.target

@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /home/antiraid/em-ILIEFF
+target: scarlet_dev
+description: Event management system for your fooking needs made by Ilieff the 2024 version of Thomas Shelby
+after: ibl-maint
+broken: false
+user: antiraid
+group: ""

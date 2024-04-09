@@ -1,0 +1,8 @@
+cmd: /home/antiraid/splashtail/staging/splashtail jobs
+dir: /home/antiraid/splashtail/staging
+target: antiraid-v6
+description: Antiraid Job and Task Manager
+after: ibl-maint
+broken: false
+user: antiraid
+group: antiraid

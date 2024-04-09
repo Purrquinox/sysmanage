@@ -1,0 +1,11 @@
+servers:
+    - id: main
+      names:
+        - '@root'
+      comment: Maint
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:9999
+          opts: []
+real_name: ""

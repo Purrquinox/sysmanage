@@ -1,0 +1,12 @@
+servers:
+    - id: api
+      names:
+        - poppypaw
+        - api
+      comment: V4 API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:7866
+          opts: []
+real_name: ""

@@ -1,0 +1,81 @@
+servers:
+    - id: Main_Website
+      names:
+        - '@root'
+      comment: This is the primary website.
+      broken: false
+      locations:
+        - path: /
+          proxy: ""
+          opts:
+            - proxy_pass https://status.select-list.xyz/;
+    - id: Noteys
+      names:
+        - noteys
+      comment: Noteys API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:1730
+          opts: []
+    - id: CDN
+      names:
+        - cdn
+      comment: CDN
+      broken: false
+      locations:
+        - path: /
+          proxy: ""
+          opts:
+            - sendfile on;
+            - sendfile_max_chunk 1m;
+            - etag on;
+            - autoindex on;
+            - add_header Access-Control-Allow-Origin *;
+            - alias /failuremgmt/cdn/antiraid/;
+        - path: /json/
+          proxy: ""
+          opts:
+            - sendfile on;
+            - sendfile_max_chunk 1m;
+            - autoindex on;
+            - add_header Access-Control-Allow-Origin *;
+            - alias /faluremgmt/cdn/antiraid/;
+            - autoindex_format json;
+    - id: splashtail-staging
+      names:
+        - splashtail-staging
+      comment: Splashtail Staging API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:5600
+          opts: []
+    - id: splashtail-sec
+      names:
+        - splashtail-sec
+      comment: Splashtail Secure Access
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:1234
+          opts: []
+    - id: eventm
+      names:
+        - eventm
+      comment: Eventm
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:8080
+          opts: []
+    - id: splashtail-sandwich
+      names:
+        - splashtail-sandwich
+      comment: Sandwich dashboard
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:29334
+          opts: []
+real_name: ""

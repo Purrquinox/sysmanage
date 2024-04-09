@@ -1,0 +1,13 @@
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'zfs load-key failuremgmt/sec; zfs mount failuremgmt/sec; chown -Rv postgres:postgres /failuremgmt/sec/pg; zfs mount failuremgmt/sec/pg; chown -Rv antiraid:antiraid /failuremgmt/cdn/antiraid'
+User=root
+Group=root
+WorkingDirectory=/root
+
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description="MongoZFS trigger"
+After=network.target

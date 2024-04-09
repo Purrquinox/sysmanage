@@ -1,0 +1,8 @@
+cmd: /usr/bin/make run
+dir: /home/antiraid/splashtail/staging/infra/twilightgwproxy
+target: antiraid-v6
+description: Antiraid Gateway Proxy [staging]
+after: ibl-maint
+broken: false
+user: antiraid
+group: antiraid

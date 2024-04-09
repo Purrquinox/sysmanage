@@ -1,0 +1,8 @@
+cmd: /usr/bin/dmesg
+dir: /
+target: core
+description: dmesg
+after: ibl-maint
+broken: true
+user: ""
+group: ""

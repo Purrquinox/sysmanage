@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /home/selectdev/discord-bot
+target: Sparkyflight
+description: Sparkyflight Discord Bot
+after: ibl-maint
+broken: false
+user: selectdev
+group: ""

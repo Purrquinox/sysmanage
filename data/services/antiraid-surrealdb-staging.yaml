@@ -1,0 +1,8 @@
+cmd: /usr/bin/surreal start --bind 127.0.0.1:6318 --log info --auth --user splashtail --pass gaz9gnKvk51PA$ --deny-net --deny-guests file:/home/antiraid/splashtail/staging/data/cache/surreal
+dir: /home/antiraid
+target: antiraid-v6
+description: surreal staging
+after: ibl-maint
+broken: false
+user: antiraid
+group: antiraid

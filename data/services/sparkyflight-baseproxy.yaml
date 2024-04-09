@@ -1,0 +1,8 @@
+cmd: /usr/bin/nirn-proxy ws-proxy=ws://127.0.0.1:7851 port=7852
+dir: /home/selectdev
+target: Sparkyflight
+description: Sparkyflight Base Proxy
+after: ibl-maint
+broken: false
+user: selectdev
+group: ""

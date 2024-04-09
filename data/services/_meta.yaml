@@ -1,0 +1,11 @@
+targets:
+    - name: core
+      description: Core services
+    - name: antiraid-v6
+      description: AntiRaid v6
+    - name: Sparkyflight
+      description: Sparkyflight services
+    - name: scarlet_dev
+      description: scarlet_dev's services
+    - name: fates-list
+      description: Fates List v4 services
