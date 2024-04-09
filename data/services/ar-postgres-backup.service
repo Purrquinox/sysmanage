@@ -1,11 +1,11 @@
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/mkiblbackup antiraid /home/antiraid/.dbcerts/public.pem
+ExecStart=/usr/bin/mkarbackup antiraid /home/antiraid/.dbcerts/public.pem
 User=antiraid
 Group=antiraid
 WorkingDirectory=/home/antiraid
 PrivateTmp=true
-Environment="PGPORT=5433"
+Environment="PGPORT=5435"
 
 [Unit]
 Description="Backup script"
