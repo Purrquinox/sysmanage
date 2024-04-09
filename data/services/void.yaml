@@ -1,8 +1,0 @@
-cmd: /root/void/void
-dir: /root/void
-target: core
-description: Void Maint
-after: network
-broken: false
-user: ""
-group: ""

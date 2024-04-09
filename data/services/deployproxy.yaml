@@ -1,8 +1,0 @@
-cmd: /root/deployproxy/deployproxy
-dir: /root/deployproxy
-target: core
-description: DeployProxy [v4]
-after: network
-broken: false
-user: ""
-group: ""
