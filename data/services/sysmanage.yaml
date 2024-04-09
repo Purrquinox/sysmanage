@@ -1,8 +1,0 @@
-cmd: /root/sysmanage-hepatitis/sysmanage
-dir: /root/sysmanage-hepatitis
-target: core
-description: System Management [v4]
-after: network
-broken: true
-user: ""
-group: ""
