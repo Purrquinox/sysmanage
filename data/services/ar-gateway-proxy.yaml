@@ -3,6 +3,6 @@ dir: /home/antiraid/Sandwich-Daemon
 target: antiraid-v6
 description: Antiraid Gateway Proxy [staging]
 after: ibl-maint
-broken: false
+broken: true
 user: antiraid
 group: antiraid
