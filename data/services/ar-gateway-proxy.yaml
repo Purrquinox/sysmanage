@@ -1,5 +1,5 @@
-cmd: /usr/bin/make run
-dir: /home/antiraid/splashtail/staging/infra/twilightgwproxy
+cmd: /home/antiraid/Sandwich-Daemon/out/sandwich -configurationPath sandwich.yaml -level debug
+dir: /home/antiraid/Sandwich-Daemon
 target: antiraid-v6
 description: Antiraid Gateway Proxy [staging]
 after: ibl-maint
