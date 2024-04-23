@@ -3,6 +3,6 @@ dir: /home/antiraid/splashtail/staging/infra/twilightgwproxy
 target: antiraid-v6
 description: Antiraid Gateway Proxy [staging]
 after: ibl-maint
-broken: false
+broken: true
 user: antiraid
 group: antiraid
