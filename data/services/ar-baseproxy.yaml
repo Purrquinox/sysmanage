@@ -1,4 +1,4 @@
-cmd: /usr/bin/purrquinox-nirn-proxy ws-proxy=ws://127.0.0.1:3220 port=3221
+cmd: /usr/bin/purrquinox-nirn-proxy ws-proxy=ws://127.0.0.1:3220 port=3600
 dir: /home/antiraid
 target: antiraid-v6
 description: Base proxy
