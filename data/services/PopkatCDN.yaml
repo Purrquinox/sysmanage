@@ -1,4 +1,4 @@
-cmd: /usr/bin/node index
+cmd: /usr/bin/node dist/index.js
 dir: /home/selectdev/Popkat
 target: Sparkyflight
 description: Popkat CDN API
