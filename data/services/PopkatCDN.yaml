@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /selectdev/Popkat
+target: Sparkyflight
+description: Popkat CDN API
+after: ibl-maint
+broken: false
+user: selectdev
+group: ""
