@@ -17,4 +17,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:8333
           opts: []
+    - id: popkat
+      names:
+        - popkat
+      comment: Popkat CDN
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:7867
+          opts: []
 real_name: ""
