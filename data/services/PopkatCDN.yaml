@@ -5,4 +5,4 @@ description: Popkat CDN API
 after: ibl-maint
 broken: false
 user: selectdev
-group: ""
+group: selectdev
