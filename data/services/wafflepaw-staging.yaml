@@ -4,5 +4,5 @@ target: antiraid-v6
 description: wafflepaw service monitor
 after: ibl-maint
 broken: false
-user: root
-group: root
+user: antiraid
+group: antiraid
