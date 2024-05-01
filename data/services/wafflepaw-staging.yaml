@@ -1,0 +1,8 @@
+cmd: /home/antiraid/splashtail/staging/infra/wafflepaw/wafflepaw
+dir: /home/antiraid/splashtail/staging
+target: antiraid-v6
+description: wafflepaw service monitor
+after: ibl-maint
+broken: false
+user: root
+group: root
