@@ -1,8 +1,0 @@
-cmd: /home/antiraid/splashtail/prod/splashtail
-dir: /home/antiraid/splashtail/prod
-target: antiraid-v6
-description: Production Splashtail API instance
-after: ar-gateway-proxy
-broken: true
-user: antiraid
-group: antiraid
