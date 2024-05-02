@@ -1,0 +1,8 @@
+cmd: /home/antiraid/splashtail/staging/infra/nirn-proxy/nirn-proxy
+dir: /home/antiraid/splashtail/staging/infra/nirn-proxy
+target: antiraid-v6
+description: nirn proxy
+after: void
+broken: false
+user: antiraid
+group: antiraid
