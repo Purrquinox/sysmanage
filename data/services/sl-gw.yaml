@@ -1,8 +1,0 @@
-cmd: /home/selectdev/Trureadina/src/gateway-proxy/gateway-proxy
-dir: /home/selectdev/Trureadina/src/gateway-proxy
-target: fates-list
-description: SL Gateway Proxy
-after: ibl-maint
-broken: false
-user: selectdev
-group: ""
