@@ -1,0 +1,8 @@
+cmd: /home/core/deployproxy-purr/deployproxy
+dir: /home/core/deployproxy-purr
+target: core
+description: Deployproxy instance for purrquinox
+after: void
+broken: false
+user: core
+group: core
