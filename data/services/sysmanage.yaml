@@ -1,0 +1,8 @@
+cmd: /root/sysmanage-hepatitis/sysmanage
+dir: /root/sysmanage-hepatitis
+target: core
+description: Sysmanage service management
+after: void
+broken: false
+user: root
+group: root
