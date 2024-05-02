@@ -1,8 +1,0 @@
-cmd: /home/selectdev/discord-bot/src/gateway-proxy/gateway-proxy
-dir: /home/selectdev/discord-bot/src/gateway-proxy
-target: Sparkyflight
-description: Sparkyflight GW Proxy
-after: ibl-maint
-broken: false
-user: selectdev
-group: ""
