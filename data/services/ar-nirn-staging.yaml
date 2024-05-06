@@ -1,4 +1,4 @@
-cmd: /home/antiraid/splashtail/staging/infra/nirn-proxy/nirn-proxy ws-proxy=ws://127.0.0.1:3600 port=3221 ratelimit-over-408 endpoint-rewrite=/api/gateway/bot@http://127.0.0.1:29334/antiraid,/api/v*/gateway/bot@http://127.0.0.1:29334/antiraid
+cmd: /home/antiraid/splashtail/staging/infra/nirn-proxy/nirn-proxy cache-endpoints=false ws-proxy=ws://127.0.0.1:3600 port=3221 ratelimit-over-408 endpoint-rewrite=/api/gateway/bot@http://127.0.0.1:29334/antiraid,/api/v*/gateway/bot@http://127.0.0.1:29334/antiraid
 dir: /home/antiraid/splashtail/staging/infra/nirn-proxy
 target: antiraid-v6
 description: nirn proxy
